@@ -1,0 +1,153 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+#top {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.white {
+    color: #fff;
+}
+#head {
+    background-color: #892a5b;
+    width: 1270px;
+    padding: 10px;
+
+}
+.heading {
+    text-align: center;
+    top: 10ch;
+    position: absolute;
+    left: 42ch;
+    overflow: hidden;
+}
+.heading h1 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px;
+}
+.heading a {
+    text-decoration:none;
+    color:#fff;
+}
+#logo {
+    position: absolute;
+    top: 5ch;
+    left: 68ch; 
+}
+#navbar {
+    background-color:#892a5b;
+    position: absolute;
+    top: 17ch;
+    width: 1288px;
+    
+}
+#navbar ul {
+    padding: 0%;
+    list-style: none;
+}
+#navbar li {
+    display: inline;
+}
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+body {
+    background-color: #14060d;
+}
+#middle {
+    position: absolute;
+    top: 30ch;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+#middle h1 {
+    font-size: 30px;
+    color: #fff;
+}
+#middle p {
+    font-size: 22px;
+    color: #fff;
+    
+}
+#tail {
+    background-color: #892a5b;
+    width: 1270px;
+    padding: 10px;
+    position: absolute;
+    top: 100ch;
+}
+#tail p {
+    color: #fff;
+}
+#social {
+    position: absolute;
+    left: 134ch;
+    top: 2ch;
+}
+#social ul {
+  padding:0%;
+  list-style: none;
+}
+#social li {
+    display: inline;
+}
+#social a {
+    padding-right: 20px;
+}
+.search-box {
+    position: absolute;
+    top: 2ch;
+    left: 120ch;
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+.search-box:hover > .search-txt {
+ width: 240px;
+ padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+ background: #892a5b;
+ color: #2f3640;
+}
+
+.search-btn {
+ color: #58B19F;
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: #2f3640;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 0.4s;
+ color: #58B19F;
+ cursor: pointer;
+}
+
+.search-btn > i {
+ font-size: 30px;
+}
+
+.search-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}
